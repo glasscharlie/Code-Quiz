@@ -11,15 +11,31 @@
     
     <button id='highscores'>View highscores</button>
 
-    <div class= "timer"></div>
+    <p id= "timer">Timer</p>
 
     <main>
-
+        
         <h2 id="title">JS Quiz</h2>
-
-        <ul id="answers"></ul>
-
         <p id="content">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by 10 seconds!</p>
+
+        <button id='start-button'>Start</button>
+        <div id="answers"></div>
+
+
+        <div id="correct-answer">
+            <h3> You have answered correctly! </h3>
+          </div>
+      
+          <div id="incorrect-answer">
+            <h3> You have answered incorrectly! </h3>
+          </div>
+
+          <form id="highscore-form">
+          <input type="text" id="initials" name="initials" >
+          <input id='submit-button' type="submit">
+        </form>
+
+          <ul id='highscores-list'></ul>
     </main>
 
 

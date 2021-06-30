@@ -1,0 +1,16 @@
+#correct-answer {
+    display: none;
+}
+
+#incorrect-answer {
+    display: none;
+}
+
+#highscore-form {
+    display: none;
+}
+
+
+* {
+    background-color: beige;
+}
